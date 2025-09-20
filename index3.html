@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis Pilihan Ganda</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', sans-serif;
+            background-color: #f7f5f6;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .quiz-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        #question-box {
+            margin-bottom: 20px;
+        }
+        .btn-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .btn {
+            align-items: center;
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            transition: background-color 0.5s;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        a {
+                text-decoration: none;
+            }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Pilihh aja!</h1>
+        <div id="question-box">
+            <h2 id="question-text">apakah kamu?</h2>
+            <div id="answer-buttons" class="btn-grid">
+                <a href="index4.html">
+                    <button class="btn">kangen😘</button>
+                </a>
+                <a href="index4.html">
+                    <button class="btn">kangen bangettt🥰</button>
+                </a>
+                <a href="index4.html">
+                    <button class="btn">GA😒</button>
+                </a>
+                <a href="index4.html">
+                    <button class="btn">biasa aja🫥</button>
+                </a>
+            </div>
+    <script src="script.js"></script>
+</body>
+</html>
